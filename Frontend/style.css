@@ -1,0 +1,158 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav{
+    display: flex;
+    height: 60px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#nav-options{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#nav-options>div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    padding: 10px 25px;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+}
+#nav-options>div:hover{
+    background-color: #7DB1FF;
+}
+#nav-options>div>a{
+    text-decoration: none;
+}
+.nav>img{
+   margin-left: 10px;
+}
+
+
+/* register */
+.register{
+    width: 330px;
+    margin: auto;
+    margin-top: 35px;
+    border-radius: 10px;
+    background-color: #7DB1FF;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 0px 10px;
+}
+.register>h1{
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+}
+.register label{
+    color: white;
+}
+.register>form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.register>form>label{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.register input{
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+}
+.register select{
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+}
+#submit{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 40px;
+    border-radius: 20px;
+}
+#submit:hover{
+    background-color: white;
+}
+
+/* dashboard  page*/
+.bg{
+    margin: auto;
+    width: 70%;
+    background-color: #7DB1FF;
+    border-radius: 10px;
+    padding: 30px 0px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.filterDiv{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    color: white;
+}
+.filterDiv>select{
+    height: 30px;
+    padding: 0px 10px;
+    background-color: #7DB1FF;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid white;
+    margin-top: 30px;
+    margin-left: 57px;
+}
+.table>table{
+    margin: auto;
+}
+table button{
+    background-color: rgb(184, 0, 0);
+    text-align: center;
+    color: white; 
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: 0px;
+}
+table button:hover{
+    cursor: pointer;
+    background-color: red;
+}
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px 20px;
+    color: white;
+}
+.table>form, .table>h2{
+    margin-left: 400px;
+    color: white;
+}
+#ip1,#ip2,#ip3,#ip4{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 0px;
+}
+.vac{
+    background-color: rgb(97, 184, 97);    
+    text-align: center;
+}
+.vac:hover{
+    cursor: pointer;
+    background-color: green;
+}
+footer{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+    font-size: smaller;
+    letter-spacing: 1.5px;
+    font-family: 'Poppins';
+  }
