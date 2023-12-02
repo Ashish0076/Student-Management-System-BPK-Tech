@@ -18,11 +18,7 @@ import com.BPK.model.Student;
 import com.BPK.service.StudentService;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
-<<<<<<< HEAD
 @CrossOrigin(origins = "https://student-management-system-bpk-tech.netlify.app")
-=======
-@CrossOrigin(origins = "http://127.0.0.1:5500")
->>>>>>> 8795c0611d7e372d1ba71417c6af5044649d3b45
 @RestController
 public class Controller {
 
